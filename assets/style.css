@@ -1,0 +1,12 @@
+.navbar-header {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 500px;
+    text-align: center;
+    float: left;
+    margin-right: 75%;
+}
+
+.nav.navbar-nav.navbar-right {
+    float: right;
+}
