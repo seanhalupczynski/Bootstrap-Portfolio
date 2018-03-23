@@ -6,39 +6,84 @@
     <title>Sean Halupczynski - Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="main.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/reset.css" />
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/reset.css" /> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
 <body>
     <!-- NavBar Header -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div id="navBar" class="container">
             <div class="navbar-header">
-                <!-- <div id ="navBar" class "row"> -->
-                    <!-- <div id="name" class="col-md-9"> -->
-                        <h1 id="name">Sean Halupczynski</h1>
-                    <!-- </div> -->
-                <!-- </div> -->
+                <!-- Name on NavBar -->
+                <a id="name" href="file:///C:/Users/seanh/Desktop/UNHBootCamp/HomeWork/Bootstrap-Portfolio/index.html">Sean Halupczynski</a>
             </div>
+            <!-- NavBar tabs -->
             <div id="tabs" >
                 <ul class="nav navbar-nav navbar-right">
-                    <li ><a href="file:///C:/Users/seanh/Desktop/UNHBootCamp/HomeWork/Bootstrap-Portfolio/index.html">About</a></li>
+                    <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
                     <li><a href="file:///C:/Users/seanh/Desktop/UNHBootCamp/HomeWork/Bootstrap-Portfolio/portfolio.html">Portfolio</a></li>
-                    <li class="active"><a href="#">Contact<span class="sr-only">(current)</span></a></li>
+                    <li><a href="file:///C:/Users/seanh/Desktop/UNHBootCamp/HomeWork/Bootstrap-Portfolio/contact.html">Contact</a></li>
                 </ul>                        
             </div>
-                <!-- </div> -->
-            <!-- </div> -->
         </div>
     </nav>
-    
+    <!-- Contact Me Body -->
+    <div id="textBody" class="container-fluid">
+        <!-- Contact Me Section -->
+        <div id="aboutSection" class="row">
+            <div id="aboutText" class="col-sm-12 col-md-7">
+                <div id="aboutHeader" class="row">
+                    <h3>Contact Me</h3>
+                </div>
+                <div class="row">
+                    <div class"col-xs-12 col-sm-5 col-md-12">
+                        <img src="assets/images/Seans_Bar.jpg" class="img-responsive" alt="Sean's Bar">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-12">
+                        <p> I was born and raised in Erie, Pennsylvania. I attend Penn State University. In 2010, I graduated with a Management Infomration Stystems & Supply Chain Management degree. After graduation, I begain may working career at United Way of Erie County.
+
+                            I was the Database and Systems Coordinator at United Way of Erie County. My responsibilities were to uphold the data integrety of out donor database and maintain our IT infrastucture. I spent just over four years until being hired by Liberty Mutual.
+                            
+                            Liberty Mutual hired me as a Business Systems Analyst in their Financial Systems department. There, I worked on building out analytic databases, backend infrastructure, and frontend user interface projects. In November of 2016, I transitioned into the Claims IT department and placed on the Regulatory Reporting team. The team's focus is on our Personal Insurance Loss Reporting database.
+                            
+                            Outside of work, I enjoy staying active. You can find me at the gym, playing basketball, playing softball, and mostly on the golf course. I also enjoy keeping my mind sharp by doing puzzles, such as crosswords and sudoku. I also enjoy going to triva nights at local bars and restaurants. I have been told by my friends that I don't know everything about certain things, but I know certain things about everything.
+                        </p>
+                    </div>    
+                </div>
+            </div>
+            <!-- Space between About Me and Side Bar -->
+            <div class="col-md-1">
+            </div> 
+            <!-- Side Bar -->
+            <div id="sideBar" class="col-xs-12 col-sm-12 col-md-4">
+                <div class="row">
+                    <h3>Contact Me</h3>
+                </div>
+                <!-- Contact Me Icons -->
+                <div id="contactIcons" class="row">
+                    <div class="col-xs-2 col-sm-2 col-md-4">
+                        <a href="#">
+                            <img src="assets/images/GitHubIcon.png" class="img-thumbnail" alt="GitHub">
+                        </a>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-4">
+                        <a href="#">
+                            <img src="assets/images/LinkedInIcon.png" class="img-thumbnail" alt="LinkedIn">
+                        </a>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-4">
+                        <a href="#">
+                            <img src="assets/images/StackOverflowIcon.png" class="img-thumbnail" alt="StackOverflow">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <p id="footer">Copyright</p>
+        </div>
+    </div>
 </body>
 </html>
