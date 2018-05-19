@@ -51,6 +51,10 @@ p {
     margin-bottom: 50px;
 }
 
+/* .portfolioItem{
+    display: inline-block;
+} */
+
 #footer {
     position: fixed;
     bottom: 0;
