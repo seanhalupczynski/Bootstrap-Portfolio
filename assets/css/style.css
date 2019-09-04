@@ -1,4 +1,8 @@
 /* Multi Page Stylings */
+body {
+    background: rgb(240, 240, 165);
+}
+
 .navbar-header{
     background-color: #4aaaa5;
     width: 500px;
@@ -17,7 +21,10 @@
     border-radius: 5px;
     margin-top: 75px;
     height: 200px;
-    float: right;
+    background: white;
+    position: fixed;
+    right: 50px;
+    top: 0;
 }
 
 .mainSection {
@@ -31,12 +38,24 @@
     padding-right: 25px;
 }
 
-
-/* Home Page Stylings */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    background-color: grey;
+    color: white;
+    padding-left: 50%;
+    padding-top: 5px;
+    height: 30px;
+    border-top: 2px solid black;
+}
 
 .img-responsive {
-    margin-left: 10px;
     margin-bottom: 10px;
+    height: 150px;
+    width: 125px;
 }
 
 h3 {
@@ -50,38 +69,36 @@ p {
     flex-wrap: wrap;
 }
 
-#sideBar {
-    border: 1px solid black;
-    margin-top: 75px;
-    height: 200px;
-    float: right;
+/* Home Page Stylings */
+
+#about-me {
+    background: white;
 }
 
-#msg {
-    height: 400px;
+/* Portfolio Page Stylings */
+
+#app-portfolio {
+    background: white;
+}
+
+.portfolioItem img {
+    height: 100px;
+    width: 100px;
+}
+
+.portfolioItem .caption a {
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+}
+.thumbnail {
+    height: 350px;
 }
 
 .btn {
     margin-bottom: 50px;
 }
 
-/* .portfolioItem{
-    display: inline-block;
-} */
-
-#footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: grey;
-    color: white;
-    padding-left: 50%;
-    padding-top: 5px;
-    height: 30px;
-    border-top: 2px solid black;
-}
-
-#contact-form-container {
-
+#contact-me-form {
+    background: white;
 }
