@@ -1,7 +1,4 @@
-/* body {
-    margin: 0;
-    padding: 0;
-} */
+/* Multi Page Stylings */
 .navbar-header{
     background-color: #4aaaa5;
     width: 500px;
@@ -14,7 +11,14 @@
     color: white;
     font-size: 24px;
 }
+.sideBar {
+    border: 1px solid black;
+    margin-top: 75px;
+    height: 200px;
+    float: right;
+}
 
+/* Home Page Stylings */
 #mainSection {
     margin-top: 75px;
     margin-bottom: 20px;
@@ -41,6 +45,7 @@ p {
     border: 1px solid black;
     margin-top: 75px;
     height: 200px;
+    float: right;
 }
 
 #msg {
@@ -68,3 +73,6 @@ p {
     border-top: 2px solid black;
 }
 
+#contact-form-container {
+
+}
