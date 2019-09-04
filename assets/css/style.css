@@ -103,10 +103,14 @@ p {
 }
 .thumbnail {
     height: 350px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 
-.btn {
-    margin-bottom: 50px;
+.thumbnail .btn {
+    margin-bottom: 25px;
 }
 
 #contact-me-form {
