@@ -38,9 +38,10 @@ body {
 
 .mainSection {
     margin-top: 75px;
-    margin-bottom: 20px;
+    margin-bottom: 75px;
     border: 1px solid black;
     border-radius: 5px;
+    background-color: whitesmoke;
 }
 
 .navbar-right {
@@ -63,7 +64,6 @@ body {
 
 
 h3 {
-    margin: 10px;
     border-bottom: 1px solid black;
     padding-bottom: 10px;
 }
@@ -116,3 +116,16 @@ p {
 #contact-me-form {
     background: white;
 }
+
+.img-thumbnail {
+    width: 50px;
+    height: 50px;
+}
+
+.row {
+    margin: 0;
+}
+
+/* .photos-left, .photos-right{
+    padding: 0;
+} */
